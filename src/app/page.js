@@ -6,7 +6,12 @@ export default function Home() {
   return (
     <>
       {/* Hero: the one bold moment on the page */}
-      <section className="bg-ink px-6 py-24 text-center text-white sm:py-32">
+      <section
+  className="relative bg-ink bg-cover bg-center px-6 py-24 text-center text-white sm:py-32"
+  style={{ backgroundImage: "url('/hero.png')" }}
+>
+  <div className="absolute inset-0 bg-ink/60" aria-hidden="true" />
+  <div className="relative">
         <h1 className="font-display text-6xl font-medium sm:text-8xl">
           {wedding.partner1} <span className="text-marigold">&</span> {wedding.partner2}
         </h1>
@@ -15,6 +20,7 @@ export default function Home() {
         </p>
         <div className="mt-14">
           <Countdown target={wedding.date} />
+        </div>
         </div>
       </section>
 

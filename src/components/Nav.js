@@ -10,7 +10,7 @@ export default function Nav() {
   return (
     <header className="bg-ink text-white">
       <nav className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-6 gap-y-2 px-6 py-4">
-        <Link href="/" className="font-display text-2xl">A & R</Link>
+        <Link href="/" className="font-display text-2xl">E & G</Link>
         <ul className="flex gap-6 text-sm">
           {links.map((l) => (
             <li key={l.href}>
