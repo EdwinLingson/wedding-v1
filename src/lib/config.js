@@ -3,7 +3,7 @@ export const wedding = {
   partner1: "Grace",
   partner2: "Edwin",
   date: "2027-08-22T15:00:00", // local time of the ceremony
-  dateLabel: "Saturday, 22 August 2027",
+  dateLabel: "Sunday, 22 August 2027",
   city: "Thrissur, Kerala, India",
   venue: "Lourdes Cathedral, Thrissur",
 };
