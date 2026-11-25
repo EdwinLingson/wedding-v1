@@ -2,8 +2,8 @@
 export const events = [
   {
     id: "madhuramveppu",
-    name: "Madhuram Veppu",
-    date: "Tuesday, 17 August 2027",
+    name: "Madhuram Veppu (Bride's side)",
+    date: "Tuesday, 16 August 2027",
     time: "07:00 PM IST",
     venue: "The Garden Pavilion",
     mapUrl: "https://maps.google.com/?q=The+Garden+Pavilion",
@@ -14,7 +14,7 @@ export const events = [
     id: "betrothal",
     name: "Betrothal",
     date: "Wednesday, 18 August 2027",
-    time: "3:00 PM IST",
+    time: "4:00 PM IST",
     venue: "St Joseph's Church, Peringuzha, Muvattupuzha",
     mapUrl: "https://maps.google.com/?q=St+Joseph's+Church,+Peringuzha,+Muvattupuzha",
     dressCode: "Festive formal",
@@ -24,7 +24,7 @@ export const events = [
     id: "betrothalreception",
     name: "Betrothal Reception",
     date: "Wednesday, 18 August 2027",
-    time: "5:00 PM IST",
+    time: "6:00 PM IST",
     venue: "St Joseph's Church Hall, Peringuzha, Muvattupuzha",
     mapUrl: "https://maps.google.com/?q=St+Joseph's+Church,+Peringuzha,+Muvattupuzha",
     dressCode: "Festive formal",
@@ -53,7 +53,7 @@ export const events = [
   {
     id: "reception",
     name: "Reception",
-    date: "Sunday, 23 August 2027",
+    date: "Sunday, 22 August 2027",
     time: "6:00 PM IST",
     venue: "Lourdes Centenary Hall, Thrissur",
     mapUrl: "https://maps.google.com/?q=Lourdes+Centenary+Hall,+Thrissur",
