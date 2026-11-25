@@ -2,6 +2,10 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { events } from "@/lib/events";
 
+export function generateStaticParams() {
+  return events.map((e) => ({ id: e.id }));
+}
+
 export default async function EventPage({ params }) {
   const { id } = await params;
   const event = events.find((e) => e.id === id);
